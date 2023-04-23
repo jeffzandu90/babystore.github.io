@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <nav>
+    <ul>
+       <a href="index.html.html">Home</a>
+    </ul>
+  </nav>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: utf-8;
+  padding: 20px;
+  background: #f1f1f1;
+  background-image: linear-gradient(rgba(42, 58, 74, 0.85),rgba(42, 58, 74, 0.85)), url(background.jpg);
+  height: 380vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: navajowhite;
+    font-family: 'Quicksand', sans-serif;
+    color:#e19c30;
+
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color:navajowhite;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+ .card h2{
+
+  color:navajowhite
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>BABY CLOTHES</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style= "font-size:20px;
+  line-height:1.5;
+  padding:10px;
+  color:#e19c30;font-family: 'Quicksand', sans-serif">PREPARING FOR SPRING</h2>
+      <h5 style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">25% OFF ON SELECTED SUMMER CLOTHING</h5>
+      <div>
+          <img src="https://cdn.pixabay.com/photo/2020/06/14/19/19/girl-5299081__340.jpg">
+      </div>
+      <p></p>
+      <p style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">Summer Essentials</p>
+      <p style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">Shorts, Tees and Tanks - Made to Mix & Match </p>
+    </div>
+    <div class="card">
+      <h2 style= "font-size:20px;
+  line-height:1.5;
+  padding:10px;
+  color:#e19c30;font-family: 'Quicksand', sans-serif">POPULAR ITEMS</h2>
+      <div> <img src="https://cdn.pixabay.com/photo/2016/08/01/06/51/people-1560569__340.jpg"></div>
+      <p style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">On Selected Items</p>
+      <p style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">Choose from your favorite outfits</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style= "font-size:20px;
+  line-height:1.5;
+  padding:10px;
+  color:#e19c30;font-family: 'Quicksand', sans-serif">TODDLERS</h2>
+      <div> <img src="https://cdn.pixabay.com/photo/2021/04/18/17/03/pregnant-6189040__340.jpg" style="height:100px;"></div>
+      <p style= "font-size:15px;
+  line-height:1.5;
+  padding:10px;
+  color:#8F773A;font-family: 'Quicksand', sans-serif">0-9 Months</p>
+    </div>
+    <div class="card">
+      <h3></h3>
+      <div><img src="https://cdn.pixabay.com/photo/2016/11/29/02/30/family-1866868__340.jpg" style="width:200px;height: 100px;" ></div><br>
+      <div><img src="https://cdn.pixabay.com/photo/2020/04/12/08/50/child-5033381__340.jpg"style="width:200px;height: 100px;" ></div><br>
+    </div>
+    <div class="card">
+      <h3 style= "font-size:20px;
+  line-height:1.5;
+  padding:10px;
+  color:#e19c30;font-family: 'Quicksand', sans-serif">Follow Us for more Trends</h3>
+      <p style= "font-size:20px;
+  line-height:1.5;
+  padding:10px;
+  color:#e19c30;font-family: 'Quicksand', sans-serif">@BABYSTORE</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
